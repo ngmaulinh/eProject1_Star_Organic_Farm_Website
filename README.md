@@ -17,11 +17,11 @@ Project title: Star Organic Farm
              Nguyen The Thien Phuc (PhucNTTTS2006024@fpt.edu.vn)   Student1269325
 ============================
 
-eProject documentation at https://github.com/ngmaulinh/Star_Organic_Farm_Website/tree/master/documentation
+eProject documentation at https://github.com/ngmaulinh/eProject1_Star_Organic_Farm_Website/tree/main/Documents
 
 ============================
 
-eProject published at https://ngmaulinh.github.io/Star_Organic_Farm_Website/
+eProject published at https://ngmaulinh.github.io/eProject1_Star_Organic_Farm_Website/
 
 ============================
 
