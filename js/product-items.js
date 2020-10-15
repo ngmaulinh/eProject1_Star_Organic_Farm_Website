@@ -2,7 +2,6 @@
 // load data ...
 //================
 $(document).ready(function ($) {
-    alert("hi")
     $.getJSON("js/foodList.json")
         //load data success
         .done(function (result) {
