@@ -31,10 +31,11 @@
     <!-- phone number -->
     <div class="container">
       <div class="header-inner">
-        <div class="col-sm-4 col-xs-6 header-left">
+        <div class="col-sm-4 header-left visible-sm visible-md visible-lg">
           <div class="shipping">
             <div class="shipping-img"></div>
-            <div class="shipping-text">+91(000)1234-1234<span class="shipping-detail">Week From 9:00am To 7:00pm</span>
+            <div class="shipping-text">+91(000)1234-1234<span class="shipping-detail">Week From 9:00am To
+                7:00pm</span>
             </div>
           </div>
         </div>
@@ -48,11 +49,10 @@
         </div>
 
         <!-- Shopping cart -->
-        <div class="col-sm-3 col-xs-12 col-sm-push-1 header-right">
+        <div class="col-sm-3 col-sm-push-1 header-right visible-sm visible-md visible-lg">
           <a href="payment.html">
             <div id="cart" class="btn-group btn-block">
-              <button type="button" class="btn btn-inverse btn-block btn-lg dropdown-toggle cart-dropdown-button"> <span
-                  id="cart-total"><span class="cart-title">Shopping Cart</span><br>
+              <button type="button" class="btn"> <span id="cart-total"><span class="cart-title">Shopping Cart</span><br>
                   Pay now!</span> </button>
             </div>
           </a>
@@ -61,30 +61,46 @@
     </div>
   </header>
   <!-- navbar -->
-  <nav id="menu" class="navbar">
-    <div class="nav-inner container">
-      <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
-        <button type="button" class="btn btn-navbar navbar-toggle"><i class="fa fa-bars"></i></button>
-      </div>
-      <div class="navbar-collapse">
-        <ul class="main-navigation">
-          <li><a href="index.html" class="parent">Home</a> </li>
-          <li><a href="products.html" class="active parent">PRODUCTS</a>
-            <ul>
-              <li><a href="products.html?cat=cereals">NUTRITIOUS CEREALS</a></li>
-              <li><a href="products.html?cat=rice">WHEAT & RICE</a></li>
-              <li><a href="products.html?cat=spices">SPICES & CONDIMENTS</a></li>
-              <li><a href="products.html?cat=oils">OILS</a></li>
-              <li><a href="products.html?cat=fruits">FRUIT PULPS</a></li>
-              <li><a href="products.html?cat=pulses">PULSES & AGRO</a></li>
-            </ul>
-          </li>
-          <li><a href="blog.html" class="parent">BLOG</a> </li>
-          <li><a href="FAQs.html" class="parent">FAQ</a> </li>
-          <li><a href="contact.html" class="parent">CONTACT US</a> </li>
-          <li><a href="payment.html" class="parent">PAYMENT</a> </li>
-        </ul>
-      </div>
+  <nav id="menu" class="navbar navbar-default" role="navigation">
+
+    <div class="navbar-header">
+      <a class="navbar-brand visible-xs" href="#">MENU</a>
+      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse"
+        data-target=".navbar-ex1-collapse">
+
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="main-navigation nav navbar-nav">
+
+        <li><a href="index.html" class="parent">HOME</a> </li>
+
+        <!-- dropdown when screen<=768px -->
+        <li class="dropmenu">
+          <a href="products.html" class="visible-sm visible-md visible-lg">PRODUCTS</a>
+          <a href="products.html" class="dropdown-toggle visible-xs" data-toggle="dropdown">PRODUCTS<b
+              class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="products.html?cat=cereals">NUTRITIOUS CEREALS</a></li>
+            <li><a href="products.html?cat=rice">WHEAT & RICE</a></li>
+            <li><a href="products.html?cat=spices">SPICES & CONDIMENTS</a></li>
+            <li><a href="products.html?cat=oils">OILS</a></li>
+            <li><a href="products.html?cat=fruits">FRUIT PULPS</a></li>
+            <li><a href="products.html?cat=pulses">PULSES & AGRO</a></li>
+          </ul>
+        </li>
+
+        <li><a href="blog.html" class="parent">BLOG</a> </li>
+        <li><a href="FAQs.html" class="parent">FAQ</a> </li>
+        <li><a href="contact.html" class="parent">CONTACT US</a> </li>
+        <li><a href="payment.html" class="parent">PAYMENT</a> </li>
+      </ul>
     </div>
   </nav>
 
@@ -101,9 +117,7 @@
           src="images/carousel/oils-banner.jpg">
         <div class="container">
           <div class="carousel-caption">
-            <h1></h1>
-            <p></p>
-            <p><a class="btn btn-lg btn-primary" href="products.html" role="button">Buy today</a></p>
+            <p><a class="btn btn-lg btn-primary" href="products.html" role="button">Buy Products!</a></p>
           </div>
         </div>
       </div>
@@ -112,7 +126,7 @@
           src="images/carousel/other-banner.jpg">
         <div class="container">
           <div class="carousel-caption">
-            <p><a class="btn btn-lg btn-primary" href="products.html" role="button">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary" href="products.html" role="button">Buy Products!</a></p>
           </div>
         </div>
       </div>
@@ -123,7 +137,7 @@
           <div class="carousel-caption">
             <h1></h1>
             <p></p>
-            <p><a class="btn btn-lg btn-primary" href="products.html" role="button">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="products.html" role="button">Buy Products!</a></p>
           </div>
         </div>
       </div>
