@@ -19,11 +19,11 @@ $.getJSON("js/blog.json")
 
         s.push("<div class='col-md-6 col-lg-6 item'>");
 
-        s.push("<div class='col-xs-12 col-sm-12 col-md-6'>");
+        s.push("<div class='col-md-6'>");
         s.push(`<a href='#'> <img src='images/${row.image}' class='data-blog' data-id='${row.id}' /> </a>`);
         s.push("</div>");
 
-        s.push("<div class='col-xs-12 col-sm-12 col-md-6'>");
+        s.push("<div class='col-md-6'>");
         s.push("<br> DATE: " + row.date + "<br>");
         s.push(`<a href='#' class='data-blog' data-id='${row.id}'> <h2> ${row.name}</h2>  <br>  </a>`);
         s.push("</div>");
