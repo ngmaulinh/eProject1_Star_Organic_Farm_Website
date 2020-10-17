@@ -1,6 +1,5 @@
 .item {
     padding: 15px;
-    height: 450px;
     text-align: center;
     margin-top: 15px;
     animation: movebottom 2s ease-out;
@@ -23,6 +22,6 @@
 .modal-body img{
     width: 100%;
 }
-.data-blog img: hover{
+.data-blog img:hover{
     border: inset 1px orange;
 }
