@@ -2,6 +2,7 @@
 // load data ...
 //================
 $(document).ready(function ($) {
+    var database =[];
     $.getJSON("js/foodList.json")
         //load data success
         .done(function (result) {
