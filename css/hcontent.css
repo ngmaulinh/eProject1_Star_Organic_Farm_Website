@@ -2,12 +2,11 @@
     height: 500px;
 cursor: grab;
 
-}
+}*/
 .carousel-inner .item img{
     width: 100%;
-    height: 500px;
 }
-.carousel-inner h1{
+/* .carousel-inner h1{
 font-size: 48px;
 margin-bottom: 0;
 font-weight: 400;
